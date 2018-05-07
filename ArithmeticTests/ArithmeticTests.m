@@ -10,6 +10,7 @@
 #import "ListNode.h"
 #import "BinaryTreeNode.h"
 #import "Sort.h"
+#import "CharReverse.h"
 
 @interface ArithmeticTests : XCTestCase
 
@@ -86,6 +87,11 @@
     insert_sort(a);
     XCTAssertEqual(a[0], 1);
     XCTAssertEqual(a[7], 9);
+}
+
+- (void)testCharReverse {
+    char c[] = "abcdefg";
+    char_reverse(c);
 }
 
 @end

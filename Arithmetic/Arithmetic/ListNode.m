@@ -9,8 +9,7 @@
 #import "ListNode.h"
 
 // 单向链表
-@interface ListNode()
-{
+@interface ListNode() {
     id val;
     ListNode *next;
 }

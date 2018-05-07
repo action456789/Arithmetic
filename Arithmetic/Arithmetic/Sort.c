@@ -8,6 +8,7 @@
 
 #include "Sort.h"
 #include <stdbool.h>
+#include <string.h>
 
 #pragma mark - 冒泡排序
 // 时间复杂度 O(N^2)
